@@ -5,7 +5,8 @@ This project is used to identify patterns in medical text using Standford CoreNL
 
 Tech Stack:
 1) Java 8
-2) Apache Tomcat 9
+2) Java Servlet
+3) Apache Tomcat 9.0
 
 Tool:
 1) Eclipse
