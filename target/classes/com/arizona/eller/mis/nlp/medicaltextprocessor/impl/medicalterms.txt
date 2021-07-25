@@ -1,0 +1,11 @@
+Rubella	MEDICAL
+lgG	MEDICAL
+antibodies	MEDICAL
+virus	MEDICAL
+serum	MEDICAL
+infection	MEDICAL
+immunization	MEDICAL
+vaccination	MEDICAL
+Syndrome	MEDICAL
+immunosuppression	MEDICAL
+clinical	MEDICAL

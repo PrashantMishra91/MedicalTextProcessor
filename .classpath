@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v9.0">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/pr1mishra/Colleges/EllerMIS/workspace/MedicalTextProcessor/MedicalTextProcessor/ExternalLib/ejml-core-0.39.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/pr1mishra/Colleges/EllerMIS/workspace/MedicalTextProcessor/MedicalTextProcessor/ExternalLib/ejml-core-0.39-sources.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/pr1mishra/Colleges/EllerMIS/workspace/MedicalTextProcessor/MedicalTextProcessor/ExternalLib/ejml-ddense-0.39.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/pr1mishra/Colleges/EllerMIS/workspace/MedicalTextProcessor/MedicalTextProcessor/ExternalLib/ejml-ddense-0.39-sources.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/pr1mishra/Colleges/EllerMIS/workspace/MedicalTextProcessor/MedicalTextProcessor/ExternalLib/ejml-simple-0.39.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/pr1mishra/Colleges/EllerMIS/workspace/MedicalTextProcessor/MedicalTextProcessor/ExternalLib/ejml-simple-0.39-sources.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/pr1mishra/Colleges/EllerMIS/workspace/MedicalTextProcessor/MedicalTextProcessor/ExternalLib/istack-commons-runtime-3.0.7.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/pr1mishra/Colleges/EllerMIS/workspace/MedicalTextProcessor/MedicalTextProcessor/ExternalLib/istack-commons-runtime-3.0.7-sources.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/pr1mishra/Colleges/EllerMIS/workspace/MedicalTextProcessor/MedicalTextProcessor/ExternalLib/javax.activation-api-1.2.0.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/pr1mishra/Colleges/EllerMIS/workspace/MedicalTextProcessor/MedicalTextProcessor/ExternalLib/javax.activation-api-1.2.0-sources.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/pr1mishra/Colleges/EllerMIS/workspace/MedicalTextProcessor/MedicalTextProcessor/ExternalLib/javax.json.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/pr1mishra/Colleges/EllerMIS/workspace/MedicalTextProcessor/MedicalTextProcessor/ExternalLib/javax.json-api-1.0-sources.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/pr1mishra/Colleges/EllerMIS/workspace/MedicalTextProcessor/MedicalTextProcessor/ExternalLib/jaxb-api-2.4.0-b180830.0359.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/pr1mishra/Colleges/EllerMIS/workspace/MedicalTextProcessor/MedicalTextProcessor/ExternalLib/jaxb-api-2.4.0-b180830.0359-sources.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/pr1mishra/Colleges/EllerMIS/workspace/MedicalTextProcessor/MedicalTextProcessor/ExternalLib/jaxb-impl-2.4.0-b180830.0438.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/pr1mishra/Colleges/EllerMIS/workspace/MedicalTextProcessor/MedicalTextProcessor/ExternalLib/jaxb-impl-2.4.0-b180830.0438-sources.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/pr1mishra/Colleges/EllerMIS/workspace/MedicalTextProcessor/MedicalTextProcessor/ExternalLib/joda-time.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/pr1mishra/Colleges/EllerMIS/workspace/MedicalTextProcessor/MedicalTextProcessor/ExternalLib/joda-time-2.10.5-sources.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/pr1mishra/Colleges/EllerMIS/workspace/MedicalTextProcessor/MedicalTextProcessor/ExternalLib/jollyday.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/pr1mishra/Colleges/EllerMIS/workspace/MedicalTextProcessor/MedicalTextProcessor/ExternalLib/jollyday-0.4.9-sources.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/pr1mishra/Colleges/EllerMIS/workspace/MedicalTextProcessor/MedicalTextProcessor/ExternalLib/slf4j-api.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/pr1mishra/Colleges/EllerMIS/workspace/MedicalTextProcessor/MedicalTextProcessor/ExternalLib/slf4j-simple.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/pr1mishra/Colleges/EllerMIS/workspace/MedicalTextProcessor/MedicalTextProcessor/ExternalLib/stanford-corenlp-4.2.2.jar" sourcepath="C:/Users/pr1mishra/Colleges/EllerMIS/stanford-corenlp-4.2.2/stanford-corenlp-4.2.2-sources.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/pr1mishra/Colleges/EllerMIS/workspace/MedicalTextProcessor/MedicalTextProcessor/ExternalLib/stanford-corenlp-4.2.2-javadoc.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/pr1mishra/Colleges/EllerMIS/workspace/MedicalTextProcessor/MedicalTextProcessor/ExternalLib/stanford-corenlp-4.2.2-models.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/pr1mishra/Colleges/EllerMIS/workspace/MedicalTextProcessor/MedicalTextProcessor/ExternalLib/stanford-corenlp-4.2.2-sources.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/pr1mishra/Colleges/EllerMIS/workspace/MedicalTextProcessor/MedicalTextProcessor/ExternalLib/xom.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/pr1mishra/Colleges/EllerMIS/workspace/MedicalTextProcessor/MedicalTextProcessor/ExternalLib/xom-1.3.2-sources.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/pr1mishra/Colleges/EllerMIS/workspace/MedicalTextProcessor/MedicalTextProcessor/ExternalLib/reflections-0.9.10.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/pr1mishra/Colleges/EllerMIS/workspace/MedicalTextProcessor/MedicalTextProcessor/ExternalLib/com.google.collections.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/pr1mishra/Colleges/EllerMIS/workspace/MedicalTextProcessor/MedicalTextProcessor/ExternalLib/btc-ascii-table-1.0.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/pr1mishra/Colleges/EllerMIS/workspace/MedicalTextProcessor/MedicalTextProcessor/ExternalLib/btc-ascii-table-1.0-sources.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/pr1mishra/Colleges/EllerMIS/workspace/MedicalTextProcessor/MedicalTextProcessor/ExternalLib/guava-base-r03.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/pr1mishra/Colleges/EllerMIS/workspace/MedicalTextProcessor/MedicalTextProcessor/ExternalLib/guava-annotations-r03.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
