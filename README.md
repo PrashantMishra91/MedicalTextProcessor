@@ -1,7 +1,7 @@
 # MedicalTextProcessor
 
 Description:
-This project is used to identify patterns in medical text using Standford CoreNLP module.
+This project is used to identify patterns in medical text using the Standford CoreNLP module.
 
 Tech Stack:
 1) Java 8
@@ -14,22 +14,22 @@ Tool:
 Steps to setup:
 1) Clone the project.
 2) Download the stanford-corenlp-4.2.2-models.jar to the External Jars folder**.
-3) Add the External Jars in Build Path.
-4) Open Properties (<Project> -> Properties -> Deployment Assembly) and add all the external jars
-5) Look for medicalterms.txt, copy path for this text file and mention it in the "MedicalTextProcessorConstants.java" file for the variable "MEDICALTERMSTEXT".
+3) Add the External Jars in Build Path (remove the existing Jars if available).
+4) Open Properties (<Project> -> Properties -> Deployment Assembly) and add all the external jars. (Required for Web Deployment and execution).
+5) Look for medicalterms.txt, copy the path for this text file and mention it in the "MedicalTextProcessorConstants.java" file for the variable "MEDICALTERMSTEXT".
   
- Execution:
- There are 2 ways to execute this project
- 1) Using Java Modules
- 2) Using Web Application
+Execution:
+There are 2 ways to execute this project
+1) Using Java Modules
+2) Using Web Application
   
- Using Java Modules:
- Steps:
- 1) Run the java file "ReadInput.java"
- 2) The inputs required are
- a) The location (path) of the input text file containg the medical data to be processed
- b) The location (path) of the output where the processed data needs to be stored
- 3) Check the output file at the given location
+Using Java Modules:
+Steps:
+1) Run the java file "ReadInput.java"
+2) The inputs required are
+a) The location (path) of the input text file containing the medical data to be processed
+b) The location (path) of the output where the processed data needs to be stored
+3) Check the output file at the given location
   
 Using Web Application:
 Steps:
@@ -41,4 +41,6 @@ a) The medical text to be processed
 b) The location where the processed file needs to be saved
 5) Click on "Enter"
 6) The file is generated.
+  
+** You can download the jar "https://stanfordnlp.github.io/CoreNLP/download.html". The jar couldn't be loaded as it was over 400MB. 
   
