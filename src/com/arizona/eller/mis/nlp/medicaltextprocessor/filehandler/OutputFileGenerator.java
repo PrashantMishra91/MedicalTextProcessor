@@ -15,6 +15,11 @@ import com.bethecoder.ascii_table.ASCIITable;
  */
 public class OutputFileGenerator {
 
+	/**
+	 * @param rowEntries
+	 * @param totalSentences
+	 * @param outputFilePath
+	 */
 	public void writeTexttoFile(List<RowEntry> rowEntries, int totalSentences, OutputFilePath outputFilePath) {
 		try {
 			String finalText = MedicalTextProcessorConstants.OUTPUTHEADING;
@@ -22,17 +27,19 @@ public class OutputFileGenerator {
 
 			FileWriter fileWritter = new FileWriter(outPath);
 
+			String totalSen = "Total Sentences: " + String.valueOf(totalSentences);
 			String[] headers = MedicalTextProcessorConstants.TABLEHEADERS_1;
 			String[] getterMethods = MedicalTextProcessorConstants.GETTERMETHODS_1;
 			String[][] tableData = constructTableData(rowEntries, getterMethods);
 			String finalTable1 = ASCIITable.getInstance().getTable(headers, tableData);
 
-			fileWritter.write(MedicalTextProcessorConstants.SENTENCENOTIFIER);
 			String sentenceTable = constructSentenceTable(rowEntries);
 
 			try {
 				fileWritter.write(finalText);
 				fileWritter.write("\n");
+				fileWritter.write("\n");
+				fileWritter.write(totalSen);
 				fileWritter.write("\n");
 				fileWritter.write(finalTable1);
 				fileWritter.write("\n");
@@ -53,6 +60,10 @@ public class OutputFileGenerator {
 		}
 	}
 
+	/**
+	 * @param rowEntries
+	 * @return
+	 */
 	private String constructSentenceTable(List<RowEntry> rowEntries) {
 		try {
 			String returnString = "";
@@ -72,6 +83,11 @@ public class OutputFileGenerator {
 		return "";
 	}
 
+	/**
+	 * @param rowEntries
+	 * @param getterMethods
+	 * @return
+	 */
 	private String[][] constructTableData(List<RowEntry> rowEntries, String[] getterMethods) {
 		try {
 			int length = rowEntries.size();

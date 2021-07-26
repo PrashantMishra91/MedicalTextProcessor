@@ -78,26 +78,44 @@ public class RowEntry {
 		this.nouns = nouns;
 	}
 
+	/**
+	 * @return
+	 */
 	public String getNounsList() {
 		return nounsList;
 	}
 
+	/**
+	 * @param nounsList
+	 */
 	public void setNounsList(String nounsList) {
 		this.nounsList = nounsList;
 	}
 
+	/**
+	 * @return
+	 */
 	public String getMedicalTerms() {
 		return medicalTerms;
 	}
 
+	/**
+	 * @param medicalTerms
+	 */
 	public void setMedicalTerms(String medicalTerms) {
 		this.medicalTerms = medicalTerms;
 	}
 
+	/**
+	 * @return
+	 */
 	public String getMedicalTermsList() {
 		return medicalTermsList;
 	}
 
+	/**
+	 * @param medicalTermsList
+	 */
 	public void setMedicalTermsList(String medicalTermsList) {
 		this.medicalTermsList = medicalTermsList;
 	}

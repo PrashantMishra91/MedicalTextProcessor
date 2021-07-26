@@ -8,7 +8,6 @@ import java.nio.file.Paths;
 import com.arizona.eller.mis.nlp.medicaltextprocessor.helper.OutputFilePath;
 import com.arizona.eller.mis.nlp.medicaltextprocessor.impl.MessageProcessor;
 
-
 /**
  * @author Prashant
  *
@@ -18,7 +17,7 @@ public class ReadInput {
 	private int retryCount;
 	private int maxCount;
 
-	private static ReadInput readInput = new ReadInput();;
+	private static ReadInput readInput = new ReadInput();
 
 	/**
 	 * Constructor for Class ReadInput
@@ -61,9 +60,9 @@ public class ReadInput {
 	}
 
 	/**
-	 * @param message Here the String message is cleaned (if required) and sent for
-	 *                further processing steps
-	 * @param outputFilePath 
+	 * @param message        Here the String message is cleaned (if required) and
+	 *                       sent for further processing steps
+	 * @param outputFilePath
 	 */
 	private void processText(String message, OutputFilePath outputFilePath) {
 		try {

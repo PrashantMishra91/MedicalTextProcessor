@@ -10,6 +10,10 @@ import edu.stanford.nlp.simple.Sentence;
  */
 public class HandleWords {
 
+	/**
+	 * @param sentence
+	 * @return
+	 */
 	public int getTotalWords(CoreSentence sentence) {
 		String text = sentence.text();
 		Document document = new Document(text);
@@ -17,6 +21,10 @@ public class HandleWords {
 		return getTotalWords(simpleSentence);
 	}
 
+	/**
+	 * @param sentence
+	 * @return
+	 */
 	public int getTotalWords(Sentence sentence) {
 		return sentence.words().size();
 	}

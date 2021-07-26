@@ -56,6 +56,10 @@ public class TextEditorServlet extends HttpServlet {
 
 	}
 
+	/**
+	 * @param request
+	 * @param response
+	 */
 	private void viewData(HttpServletRequest request, HttpServletResponse response) {
 		try {
 			String text = "this is a sample Text";

@@ -21,6 +21,10 @@ import edu.stanford.nlp.pipeline.CoreSentence;
  */
 public class MessageProcessor {
 
+	/**
+	 * @param message
+	 * @param outputFilePath
+	 */
 	public void processingText(String message, OutputFilePath outputFilePath) {
 		try {
 			Properties properties = new Properties();
@@ -51,6 +55,9 @@ public class MessageProcessor {
 
 	}
 
+	/**
+	 * @param properties
+	 */
 	private void updateProperties(Properties properties) {
 		try {
 			properties.setProperty("annotators", MedicalTextProcessorConstants.ANNOTATORS);

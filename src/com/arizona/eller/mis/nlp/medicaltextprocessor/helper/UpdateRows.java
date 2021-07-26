@@ -18,6 +18,12 @@ import edu.stanford.nlp.simple.Document;
  */
 public class UpdateRows {
 
+	/**
+	 * @param doc
+	 * @param sentences
+	 * @param simpleDoc
+	 * @return
+	 */
 	public List<RowEntry> getRowEntries(CoreDocument doc, List<CoreSentence> sentences, Document simpleDoc) {
 		List<RowEntry> entries = new ArrayList<RowEntry>();
 		try {
@@ -44,6 +50,10 @@ public class UpdateRows {
 		return entries;
 	}
 
+	/**
+	 * @param sentence
+	 * @return
+	 */
 	private List<String> getMedicalListinSentence(CoreSentence sentence) {
 		try {
 			HandleNerTags handleNerTags = new HandleNerTags();
@@ -56,6 +66,10 @@ public class UpdateRows {
 
 	}
 
+	/**
+	 * @param sentence
+	 * @return
+	 */
 	private int getMedicalTermsinSentence(CoreSentence sentence) {
 		try {
 			HandleNerTags handleNerTags = new HandleNerTags();
@@ -67,6 +81,10 @@ public class UpdateRows {
 
 	}
 
+	/**
+	 * @param sentence
+	 * @return
+	 */
 	private String getFormattedSentence(CoreSentence sentence) {
 		try {
 			HandleSentences handleSentences = new HandleSentences();
@@ -77,6 +95,10 @@ public class UpdateRows {
 		return "";
 	}
 
+	/**
+	 * @param sentence
+	 * @return
+	 */
 	private List<String> getNounsListinSentence(CoreSentence sentence) {
 		try {
 			HandleNouns handleNouns = new HandleNouns();
@@ -89,6 +111,10 @@ public class UpdateRows {
 
 	}
 
+	/**
+	 * @param sentence
+	 * @return
+	 */
 	private int getNounsinSentence(CoreSentence sentence) {
 		try {
 			HandleNouns handleNouns = new HandleNouns();
@@ -101,6 +127,10 @@ public class UpdateRows {
 
 	}
 
+	/**
+	 * @param sentence
+	 * @return
+	 */
 	private int getWordsinSentence(CoreSentence sentence) {
 		try {
 			HandleWords handleWords = new HandleWords();

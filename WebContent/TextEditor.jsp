@@ -51,7 +51,16 @@
 				class="display-block" />
 		</div>
 		<div class="quater-width">
-			<p>Sample Paragraph</p>
+			<p>
+				Welcome to Medical Text Processor! <br> Here You can post your
+				relevant Medical Text and the file path where you want to store the
+				Processed Text File. <br> Both the Text Fields are mandatory. <br>
+				After you type the mandatory information in the fields, you can
+				click on Enter <br> This application uses NLP libraries to
+				generate the statistical data required for your Analysis <br>
+				Along with the statistics it also provides a detailed analysis of
+				the Processed Text <br>
+			</p>
 		</div>
 	</form>
 </body>

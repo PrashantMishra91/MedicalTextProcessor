@@ -9,10 +9,16 @@ import java.util.List;
 public class RowEntries {
 	List<RowEntry> rowEntryList;
 
+	/**
+	 * @return
+	 */
 	public List<RowEntry> getRowEntryList() {
 		return rowEntryList;
 	}
 
+	/**
+	 * @param rowEntryList
+	 */
 	public void setRowEntryList(List<RowEntry> rowEntryList) {
 		this.rowEntryList = rowEntryList;
 	}

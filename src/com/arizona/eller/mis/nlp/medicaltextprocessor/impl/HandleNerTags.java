@@ -13,6 +13,10 @@ import edu.stanford.nlp.pipeline.CoreSentence;
  */
 public class HandleNerTags {
 
+	/**
+	 * @param sentence
+	 * @return
+	 */
 	public List<String> getMedicalTermList(CoreSentence sentence) {
 		List<String> medicalList = new ArrayList<String>();
 		try {
@@ -30,6 +34,10 @@ public class HandleNerTags {
 		return medicalList;
 	}
 
+	/**
+	 * @param sentence
+	 * @return
+	 */
 	public int getTotalMedicalNerTags(CoreSentence sentence) {
 		List<String> nerTags = sentence.nerTags();
 		int count = 0;

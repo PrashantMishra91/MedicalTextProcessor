@@ -13,6 +13,10 @@ import edu.stanford.nlp.pipeline.CoreSentence;
  */
 public class HandleNouns {
 
+	/**
+	 * @param sentence
+	 * @return
+	 */
 	public List<String> getNounsList(CoreSentence sentence) {
 		List<String> nounsList = new ArrayList<String>();
 		try {
@@ -30,6 +34,10 @@ public class HandleNouns {
 		return nounsList;
 	}
 
+	/**
+	 * @param sentence
+	 * @return
+	 */
 	public int getTotalNouns(CoreSentence sentence) {
 		try {
 			List<String> posTags = sentence.posTags();

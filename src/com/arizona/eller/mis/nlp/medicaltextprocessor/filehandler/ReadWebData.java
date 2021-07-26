@@ -9,6 +9,10 @@ import com.arizona.eller.mis.nlp.medicaltextprocessor.impl.MessageProcessor;
  */
 public class ReadWebData {
 
+	/**
+	 * @param message
+	 * @param outPath
+	 */
 	public void onMessage(String message, String outPath) {
 		try {
 			OutputFilePath outputFilePath = new OutputFilePath();

@@ -13,6 +13,10 @@ import edu.stanford.nlp.simple.Sentence;
  */
 public class HandleSentences {
 
+	/**
+	 * @param sentence
+	 * @return
+	 */
 	public String formattedSentence(CoreSentence sentence) {
 		String text = sentence.text();
 		text = replaceNewLine(text);
@@ -31,14 +35,26 @@ public class HandleSentences {
 
 	}
 
+	/**
+	 * @param text
+	 * @return
+	 */
 	public String replaceNewLine(String text) {
 		return text.replace(System.lineSeparator(), " ");
 	}
 
+	/**
+	 * @param doc
+	 * @return
+	 */
 	public List<CoreSentence> sentenceList(CoreDocument doc) {
 		return doc.sentences();
 	}
 
+	/**
+	 * @param doc
+	 * @return
+	 */
 	public int getTotalSentences(CoreDocument doc) {
 		return doc.sentences().size();
 	}
